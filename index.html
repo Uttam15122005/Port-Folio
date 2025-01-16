@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #4facfe, #00f2fe);
+            color: #333;
+        }
+        header {
+            background: linear-gradient(to right, #4facfe, #00f2fe);
+            color: #fff;
+            padding: 1.5rem;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3rem;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background: #fff;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            border-radius: 12px;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+        .profile {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .profile img {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            border: 5px solid #4facfe;
+            margin-bottom: 1rem;
+        }
+        .profile h2 {
+            margin: 0;
+            font-size: 2rem;
+            color: #333;
+            font-weight: bold;
+        }
+        .about, .education, .skills, .projects {
+            margin-top: 2rem;
+        }
+        .about h3, .education h3, .skills h3, .projects h3 {
+            border-bottom: 3px solid #4facfe;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1rem;
+            font-size: 1.8rem;
+            color: #4facfe;
+        }
+        .about p {
+            line-height: 1.8;
+            font-size: 1.2rem;
+        }
+        .education ul, .skills ul, .projects ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .education li, .skills li, .projects li {
+            margin-bottom: 0.8rem;
+            font-size: 1.1rem;
+        }
+        .skills li {
+            display: inline-block;
+            background: #4facfe;
+            color: #fff;
+            padding: 0.6rem 1.2rem;
+            border-radius: 25px;
+            margin-right: 0.6rem;
+            font-size: 1rem;
+            font-weight: bold;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .projects li a {
+            color: #4facfe;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .projects li a:hover {
+            text-decoration: underline;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+    </header>
+    <div class="container">
+        <div class="profile">
+            <img src="uttam2.jpg" alt="Your Image">
+            <h2>Uttam Kumar</h2>
+        </div>
+        <div class="about">
+            <h3>About Me</h3>
+            <p>Hi! My name is Uttam Kumar, and I am currently pursuing a B.Tech degree in Computer Science and Engineering (CSE) at Kalasalingam University. I am passionate about technology, programming, and solving complex problems through innovative solutions.
+
+                I enjoy exploring the latest trends in technology, building projects, and continuously enhancing my skills in areas like web development, data structures, and algorithms. My goal is to contribute to impactful projects that make a difference and help me grow as a skilled developer.
+                
+                In my free time, I enjoy participating in hackathons, learning new programming languages, and working on collaborative projects with peers. I believe that with determination and a thirst for knowledge, anything is possible!</p>
+        </div>
+        <div class="education">
+            <h3>Education</h3>
+            <ul>
+                <li>B.Tech in Computer Science and Engineering
+                    Kalasalingam University, [2022] - [2026]</li>
+                    
+                    <li>Relevant coursework: Data Structures, Algorithms, Web Development, Machine Learning</li>
+                    
+                    <li>High School
+                        [SLK Collage Sitamarhi], [2020-2022]</li>
+                    
+                    
+            </ul>
+        </div>
+        <div class="skills">
+            <h3>Skills</h3>
+            <ul>
+                <li>Data Structure and Algorithm</li>
+                <li>Problem Solving</li>
+                <li>Power BI</li>
+                <li>Word-Press Development</li>
+                <li>C++</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Java Script</li>
+                <li>MySQL</li>
+                
+            </ul>
+        </div>
+        <div class="projects">
+            <h3>Projects</h3>
+            <ul>
+                
+                <li><a href="ECOMMERCE-DATA-ANALYSIS-" target="_blank">ECOMMERCE DATA ANALYSIS</a> This is a data Analysis Project</li>
+                <li><a href="Building-a-Support-Agent-Chatbot-for-CDP " target="_blank">Chatbot </a> This is a chat-bot</li>
+                <li><a href="Conferences-Room-Management-System" target="_blank">Conferences-Room-Management-System</a> This is a Conferences-Room-Management-System</li>
+                <li><a href="Web-Application-Mimicking-Google-Sheets  " target="_blank">Web-Application-Mimicking-Google-Sheets  </a></li>
+                <li><a href="Building-a-Support-Agent-Chatbot-for-CDP " target="_blank">Chatbot </a> This is a chat-bot</li>
+
+
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
